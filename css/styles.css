@@ -164,27 +164,32 @@ img {
 
 /* ---  СТИЛЬ ДЛЯ HERO  --- */
 
-.hero {
+.hero-img {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
   text-align: center;
-  /* margin-bottom: 94px; */
+  background-image: linear-gradient(rgba(56, 47, 58, 0.4), rgba(56, 47, 58, 0.4)),
+    url(../images/hero-Img-opt.jpg);
+  background-color: var(--bg-hero-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
-
-  /* margin-bottom: 94px; */
-
-  background-color: var(--hero-footer-color);
 }
 .hero-title {
+  margin-bottom: 30px;
   /* ШРИФТЫ */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  margin-bottom: 30px;
-
   color: var(--bg-prime-color);
 }
 /* ==== КНОПКА HERO Заказать === */
