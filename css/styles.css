@@ -157,7 +157,6 @@ img {
 .contakt-header .link {
   display: flex;
   align-items: center;
-
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -571,8 +570,15 @@ img {
   /* outline: 1px solid orange; */
 }
 /* ------------------social_FOOTER----------------- */
+.join {
+  display: flex;
+  flex-direction: column;
+
+  /* outline: 1px solid red; */
+}
 
 .title-footer {
+  display: flex;
   margin-bottom: 20px;
   font-size: 14px;
   font-weight: 700;
@@ -587,6 +593,7 @@ img {
 .item-social:not(:last-child) {
   margin-right: 10px;
 }
+
 .link-soc {
   display: flex;
   width: 44px;
@@ -606,10 +613,7 @@ img {
 .soc-list-footer .icon-soc {
   fill: var(--bg-prime-color);
 }
-/* .icon-soc:hover,
-.icon-soc:focus .lin {
-  fill: var(--bg-prime-color);
-} */
+
 .link-soc:hover .icon-soc,
 .link-soc:focus .icon-soc {
   fill: var(--bg-prime-color);
